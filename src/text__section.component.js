@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Text() {
-    return <div>
+class Text extends Component{
+    render(){
+        return <div>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
              It has roots in a piece of classical Latin literature from 45 BC,
             it over 2000 years old. Richard McClintock, a Latin professor 
@@ -51,6 +52,7 @@ function Text() {
             original form, accompanied by English versions from the 1914 translation by H. Rackham.
         </p>
     </div>
+    }  
 }
 
 export default Text

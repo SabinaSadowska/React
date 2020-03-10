@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function Header() {
-    return <div>
+
+class Header extends Component {
+    render(){
+        return <div>
         <h1>Lorem Ipsum is simply dummy text of the
              printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy
@@ -9,6 +11,8 @@ function Header() {
             took a galley of type and scrambled it to make a
         </h1>
     </div>
+    }
+   
 }
 
 export default Header
